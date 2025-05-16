@@ -1,14 +1,14 @@
 # wire-os
 
-The main repo for WireOS.
+The main repo for RainbOS.
 
-WireOS serves as a nice, stable, and maintained base for Vector CFW.
+RainbOS is a custom firmware that adds more colors, and some special features to Vector.
 
 ## Submodules
 
 - /poky/poky -> [yoctoproject/poky](https://github.com/yoctoproject/poky) (walnascar)
 - /poky/meta-openembedded -> [openembedded/meta-openembedded](https://github.com/openembedded/meta-openembedded) (walnascar)
-- /anki/victor -> [wire-os-victor](https://github.com/os-vector/wire-os-victor) (main)
+- /anki/victor -> [wire-os-victor](https://github.com/gamingtimevr/new-victor) (main)
 - /anki/wired -> [wired](https://github.com/os-vector/wired) (main)
 
 ## Build
@@ -16,7 +16,7 @@ WireOS serves as a nice, stable, and maintained base for Vector CFW.
 Make sure you have Docker installed, and configured so a regular user can use it.
 
 ```
-git clone https://github.com/os-vector/wire-os --recurse-submodules --shallow-submodules --depth=1
+git clone https://github.com/gamingtimevr/vicos-oelinux-new --recurse-submodules --shallow-submodules --depth=1
 cd wire-os
 ./build/build.sh -bt <dev/oskr> -bp <boot-passwd> -v <build-increment>
 # boot password not required for dev
