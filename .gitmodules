@@ -11,5 +11,4 @@
 	url = https://github.com/os-vector/wired
 [submodule "anki/victor"]
 	path = anki/victor
-	url = https://github.com/gamingtimevr/new-victor
-	branch = main
+	url = https://github.com/gamingtimevr/vicos-oelinux-new
