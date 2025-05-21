@@ -12,4 +12,4 @@
 [submodule "anki/victor"]
 	path = anki/victor
 	url = https://github.com/gamingtimevr/new-victor
-	branch = RainbOS
+	branch = main
