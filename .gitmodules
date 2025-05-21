@@ -12,3 +12,4 @@
 [submodule "anki/victor"]
 	path = anki/victor
 	url = https://github.com/gamingtimevr/vicos-oelinux-new
+	branch = RainbOS
