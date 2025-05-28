@@ -14,6 +14,8 @@ WireOS serves as a nice, stable, and maintained base for Vector CFW.
 ## Update notes:
 
 - **05-21-2025**: you might want to run `./build/clean.sh "connman wpa-supplicant base-files systemd tzdata alsa-lib alsa-tools alsa-utils"` before building again
+- **05-24-2025**: `./build/clean.sh "connman wpa-supplicant fake-hwclock initscript-anki"`
+- **05-24-2025 again**: `./build/clean.sh "ethtool iptables-persistent"`
 
 ## Build
 
@@ -58,20 +60,14 @@ cd wire-os
         -   He will somewhat randomly do loosepixel and binaryeyes
     -   Better camera gamma correction
         -   He handles too-bright situations much better now
--   Snowboy wakeword engine
-    -   Custom wake words!
+-   Picovoice wakeword engine
+    -   Custom wake words in :8080 webserver!
 -   `htop` and `rsync` are embedded
 -   Python 3.13 rather than Python 2
--   Global SSH key ([ssh_root_key](https://raw.githubusercontent.com/kercre123/unlocking-vector/refs/heads/main/ssh_root_key))
+-   Global SSH key: ([ssh_root_key](https://raw.githubusercontent.com/kercre123/unlocking-vector/refs/heads/main/ssh_root_key))
 
 ##  Donate
 
 If you want to :P
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/kercre123)
-
-## What isn't there yet
-
-- delta updates
-- iptables
-- r/o rootfs (due to time zone setting. Anki's /data/etc/localtime patch didn't work)
