@@ -36,7 +36,7 @@ sudo chmod 660 /var/run/docker.sock
 3. Clone and build:
 
 ```
-git clone https://github.com/os-vector/wire-os --recurse-submodules
+git clone https://github.com/gamingtimevr/vicos-oelinux-new --recurse-submodules
 cd wire-os
 ./build/build.sh -bt <dev/oskr> -bp <boot-passwd> -v <build-increment>
 # boot password not required for dev
